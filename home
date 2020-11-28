@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SiawCoding</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+  body{background-color:#f9f4f4;
+  color: black;
+}
+main{text-align: center;background-color: white;
+ padding top: 20px
+background-color:#ffffff;}
+footer{background-color:#008585;
+  font-size:15px;
+}
+h1{color:orange;
+  font-size: 45px;
+  }
+.header{overflow: hidden;
+	width: 1305px;
+  height: 90px;
+  padding: 15px;
+  background-color:#f9f4f4;
+  box-shadow: 5px 5px 5px gray;
+}
+.header a{float:right;color: teal;
+      text-align:center;
+      text-decoration:none;
+      font-size: 12px;
+      padding:80px 16px 0px 0px;
+    }
+      .header a.active{color: red;}
+.header a:hover{color:hotpink;
+}
+.header img {
+  float: left;
+  width: 370px;
+  height: 100px;
+  background-color:;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
+  </style>
+</head>
+<body>
+	<div class="header">
+  <img src="ass.png" alt="logo" />
+  
+<a href="contact_us.html" >CONTACT US </a>
+<a href="forum.html"> FORUM </a>
+<a href="videos.html"> VIDEOS </a>
+<a href="music.html"> MUSIC </a>
+<a href="news.html"> NEWS </a>
+<a class="active" href="home.html"> HOME</a>
+</div>
+<main>
+<p align="center">Hi I'm <strike> ASS</strike> Samuel Siaw Afrani.<br>
+	This is my very own page and I intend to complete it.<br> So if you want to help me out,then please fill in the form below to get started;</p><br>
+<fieldset style="width: 500px;height: 500px ;margin-left: 400px;padding:20px ">
+	<legend>FILL THIS FORM</legend>
+<form action="siawafrani885@gmail.com">
+	<b>FULL NAME</b><br>
+	<input type="text" placeholder="Your full name" required size="50"><br><br>
+	<b>E-mail</b><br>
+		<input type="text" placeholder="email@gmail.com" required><br><br>
+		<b>GENDER</b><br>
+		<label for="MALE"></label>
+		<input type="radio" id=Male name="gender" value="male">MALE<br>
+		<input type="radio" name="gender" value="female">FEMALE<br>
+		<input type="radio" name="gender" value="not_say" checked>Rather Not Say<br><br>
+<b>QUALIFICATIONS</b><br>
+		<input type="checkbox" name="qualifications" value="graphic design">Graphic Design<br>
+			<input type="checkbox" name="qualifications" value="web programming">Web Development<br>
+		<input type="checkbox" name="qualifications" value="computer skills">Computer Skills<br>
+		<input type="checkbox" name="qualifications" value="publishing">Publishing<br>
+		<input type="checkbox" name="qualifications" value="advertising">Advertising<br><br>
+		<button type="submit">Submit</button>
+	</form><br><br><br><br>
+</fieldset>
+	<br><br>
+
+	<footer>
+		&copy$@mmy m@de t#i$
+	</footer>
+</main>
+
+
+
+
+</body>
+
+</html>	
